@@ -3,6 +3,7 @@ Implement Edge-preserving Multiscale Image Decomposition based on Local Extrema
 
 ### Prerequisites
 * python 3
+* numpy
 * scipy
 * opencv
 
