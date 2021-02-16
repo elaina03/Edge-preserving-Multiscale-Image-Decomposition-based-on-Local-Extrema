@@ -63,7 +63,7 @@ Left to right: noisy image, 1st iteration smoothing, 2nd iteration smoothing
 
 4. Multiple Iterations: sample4 sample5
 <p align='center'>
-  <img src="Report_Images_Results/sample4_3iterations.jpg" height='350' width='800'>
+  <img src="Report_Images_Results/sample4_3iterations.jpg" height='300' width='800'>
     <br>
     <em> Fig. 5: sample4_3iterations </em>
 </p>
