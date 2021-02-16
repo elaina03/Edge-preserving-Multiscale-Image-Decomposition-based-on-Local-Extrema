@@ -1,5 +1,9 @@
 ## Edge-preserving Multiscale Image Decomposition based on Local Extrema
 Implement Edge-preserving Multiscale Image Decomposition based on Local Extrema
+
+### Prerequisites
+* python 3
+
 ### Usaege
  ```shell
     python3 smoothing.py <ImagePath>, <KernelSize>, <Iteration>
@@ -39,7 +43,7 @@ Left to right: original image, smoothed image, enhancement image1, enhancement i
 Apply Gaussian noise and Salt and pepper noise to each image
 
 <p align='center'>
-  <img src="Report_Images_Results/sample2_gauss_remove.jpg" height='300' width='800'>
+  <img src="Report_Images_Results/sample2_gauss_remove.jpg" height='400' width='800'>
     <br>
     <em> Fig. 3: sample2_gauss_remove </em>
 </p>
@@ -47,7 +51,7 @@ Apply Gaussian noise and Salt and pepper noise to each image
 Left to right: noisy image, 1st iteration smoothing, 2nd iteration smoothing
 
 <p align='center'>
-  <img src="Report_Images_Results/sample2_sp_remove.jpg" height='300' width='800'>
+  <img src="Report_Images_Results/sample2_sp_remove.jpg" height='400' width='800'>
     <br>
     <em> Fig. 4: sample2_sp_remove </em>
 </p>
@@ -56,7 +60,7 @@ Left to right: noisy image, 1st iteration smoothing, 2nd iteration smoothing
 
 4. Multiple Iterations: sample4 sample5
 <p align='center'>
-  <img src="Report_Images_Results/sample4_3iterations.jpg" height='300' width='800'>
+  <img src="Report_Images_Results/sample4_3iterations.jpg" height='350' width='800'>
     <br>
     <em> Fig. 5: sample4_3iterations </em>
 </p>
