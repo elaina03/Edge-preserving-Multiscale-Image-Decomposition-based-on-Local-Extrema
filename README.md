@@ -3,6 +3,8 @@ Implement Edge-preserving Multiscale Image Decomposition based on Local Extrema
 
 ### Prerequisites
 * python 3
+* scipy
+* opencv
 
 ### Usaege
  ```shell
@@ -43,7 +45,7 @@ Left to right: original image, smoothed image, enhancement image1, enhancement i
 Apply Gaussian noise and Salt and pepper noise to each image
 
 <p align='center'>
-  <img src="Report_Images_Results/sample2_gauss_remove.jpg" height='350' width='700'>
+  <img src="Report_Images_Results/sample2_gauss_remove.jpg" height='300' width='700'>
     <br>
     <em> Fig. 3: sample2_gauss_remove </em>
 </p>
@@ -51,7 +53,7 @@ Apply Gaussian noise and Salt and pepper noise to each image
 Left to right: noisy image, 1st iteration smoothing, 2nd iteration smoothing
 
 <p align='center'>
-  <img src="Report_Images_Results/sample2_sp_remove.jpg" height='350' width='700'>
+  <img src="Report_Images_Results/sample2_sp_remove.jpg" height='300' width='700'>
     <br>
     <em> Fig. 4: sample2_sp_remove </em>
 </p>
